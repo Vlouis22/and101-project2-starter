@@ -21,14 +21,16 @@ class RandomColorActivity : AppCompatActivity() {
 
     private fun getRandomColor(): Int {
         // Get random color// Get random color// Get random color// Get random color
-        getRandomColor()
+        //getRandomColor()
 
         val rnd = Random()
         return Color.argb(
             255,
-            rnd.nextInt(256),
-            rnd.nextInt(256),
-            rnd.nextInt(256)
+            rnd.nextInt(255),
+            rnd.nextInt(255),
+            rnd.nextInt(255)
         )
+
     }
 }
+

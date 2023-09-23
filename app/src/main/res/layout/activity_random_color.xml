@@ -10,4 +10,5 @@
         android:text="@string/click_anywhere"
         android:textSize="32sp"
         android:textColor="@color/black"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
